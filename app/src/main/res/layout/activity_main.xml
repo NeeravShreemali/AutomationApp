@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#48b1bf">
+
+    <RelativeLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="Smart Ac On"
+            android:layout_marginTop="30dp"
+            android:layout_toLeftOf="@+id/textView2"
+            android:background="@drawable/ring_file"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp"/>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="16dp"
+            android:layout_toLeftOf="@id/switch2"
+            android:trackTint="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="30dp"
+            android:text="Green On"
+            android:background="@drawable/ring_file"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="74dp"
+            android:layout_marginRight="88dp"
+            android:layout_marginTop="22dp"
+            android:trackTint="#ffffff"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/textView2"
+            android:background="@drawable/ring_file"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="Blue On"
+            android:textColor="#ffffff"
+            android:textSize="16sp"/>
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:layout_marginTop="22dp"
+            android:layout_toRightOf="@id/switch2"
+            android:trackTint="#ffffff"/>
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:trackTint="#ffffff"/>
+
+        <TextView
+            android:id="@+id/master_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/switch4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Master Switch Off"
+            android:textColor="#ffffff"
+            android:textSize="24sp"/>
+    </RelativeLayout>
+</LinearLayout>

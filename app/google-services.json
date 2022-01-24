@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "135038670898",
+    "firebase_url": "https://testing-930f0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "testing-930f0",
+    "storage_bucket": "testing-930f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135038670898:android:6fda070b8ca39f7b8e042b",
+        "android_client_info": {
+          "package_name": "com.aerium.automationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135038670898-tuf8q2g4o07p0errgaf0o967t371ikl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwb4cKTBeq2pdIm9em1s6UV5EdrtUHNHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135038670898-tuf8q2g4o07p0errgaf0o967t371ikl7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
